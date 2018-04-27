@@ -2,3 +2,9 @@
 *
 # Defaults
 !.gitignore
+!cache
+!formatter
+!less
+!logs
+!tmp
+!views
