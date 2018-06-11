@@ -17,12 +17,13 @@ export default class LogInButton extends Button {
       const height = 400;
       const $window = $(window);
 
-      window.open(app.forum.attribute('baseUrl') + props.path, 'logInPopup',
-        `width=${width},` +
-        `height=${height},` +
-        `top=${$window.height() / 2 - height / 2},` +
-        `left=${$window.width() / 2 - width / 2},` +
-        'status=no,scrollbars=no,resizable=no');
+      //window.open(app.forum.attribute('baseUrl') + props.path, 'logInPopup',
+      //  `width=${width},` +
+      //  `height=${height},` +
+      //  `top=${$window.height() / 2 - height / 2},` +
+      //  `left=${$window.width() / 2 - width / 2},` +
+      //  'status=no,scrollbars=no,resizable=no');
+      window.open('https://www.siberiancms.com/wp-login.php?redirect_to=open-source');
     };
 
     super.initProps(props);
