@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b115fb0f2ee99e7fcc842cbe583f38c2",
+    "hash": "ae99557710a0938ca0efcf39d42168e5",
+    "content-hash": "15e4e8800753646fd15df681551a526f",
     "packages": [
+        {
+            "name": "avatar4eg/flarum-ext-users-list",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Avatar4eg/flarum-ext-users-list.git",
+                "reference": "ed9b1a02832fb00031ab1c0030b18071751464c4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Avatar4eg/flarum-ext-users-list/zipball/ed9b1a02832fb00031ab1c0030b18071751464c4",
+                "reference": "ed9b1a02832fb00031ab1c0030b18071751464c4",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Users list",
+                    "icon": {
+                        "name": "users",
+                        "backgroundColor": "#FFFFFF",
+                        "color": "#000000"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Avatar4eg\\UsersList\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolai Morozov",
+                    "email": "avanmorozov@gmail.com"
+                }
+            ],
+            "description": "Add users list in admin panel.",
+            "keywords": [
+                "Users",
+                "admin"
+            ],
+            "time": "2016-09-16 08:42:06"
+        },
         {
             "name": "components/font-awesome",
             "version": "4.7.0",
@@ -39,7 +90,7 @@
                 "OFL-1.1"
             ],
             "description": "The iconic font designed for use with Twitter Bootstrap.",
-            "time": "2016-10-25T10:56:23+00:00"
+            "time": "2016-10-25 10:56:23"
         },
         {
             "name": "danielstjules/stringy",
@@ -95,7 +146,7 @@
                 "utility",
                 "utils"
             ],
-            "time": "2015-07-23T00:54:12+00:00"
+            "time": "2015-07-23 00:54:12"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -147,7 +198,7 @@
                 "psr-7",
                 "psr7"
             ],
-            "time": "2016-03-28T09:10:18+00:00"
+            "time": "2016-03-28 09:10:18"
         },
         {
             "name": "doctrine/annotations",
@@ -215,7 +266,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2017-02-24T16:22:25+00:00"
+            "time": "2017-02-24 16:22:25"
         },
         {
             "name": "doctrine/cache",
@@ -285,7 +336,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2017-07-22T12:49:21+00:00"
+            "time": "2017-07-22 12:49:21"
         },
         {
             "name": "doctrine/collections",
@@ -352,7 +403,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2017-01-03T10:49:41+00:00"
+            "time": "2017-01-03 10:49:41"
         },
         {
             "name": "doctrine/common",
@@ -425,7 +476,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2017-07-22T08:35:12+00:00"
+            "time": "2017-07-22 08:35:12"
         },
         {
             "name": "doctrine/dbal",
@@ -496,7 +547,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-07-22T20:44:48+00:00"
+            "time": "2017-07-22 20:44:48"
         },
         {
             "name": "doctrine/inflector",
@@ -563,7 +614,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06T14:35:42+00:00"
+            "time": "2015-11-06 14:35:42"
         },
         {
             "name": "doctrine/lexer",
@@ -617,7 +668,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09T13:34:57+00:00"
+            "time": "2014-09-09 13:34:57"
         },
         {
             "name": "filp/whoops",
@@ -678,7 +729,125 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2017-11-23T18:22:44+00:00"
+            "time": "2017-11-23 18:22:44"
+        },
+        {
+            "name": "flagrow/linguist",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/linguist.git",
+                "reference": "72c438b85b6d649614f2e8dfc1b8ea672bbe6653"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/linguist/zipball/72c438b85b6d649614f2e8dfc1b8ea672bbe6653",
+                "reference": "72c438b85b6d649614f2e8dfc1b8ea672bbe6653",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flagrow Linguist",
+                    "icon": {
+                        "name": "italic",
+                        "backgroundColor": "#f4f4f4",
+                        "color": "#5f4bb6"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/7026-flagrow-linguist-customize-translations-with-ease"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\Linguist\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Customize translations",
+            "keywords": [
+                "extension",
+                "flagrow",
+                "flarum",
+                "locale",
+                "translation"
+            ],
+            "time": "2018-06-10 20:29:58"
+        },
+        {
+            "name": "flagrow/terms",
+            "version": "0.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flagrow/terms.git",
+                "reference": "d1c5dfdf3d0b1f8ebebabe07bbc5bd96cf65e676"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flagrow/terms/zipball/d1c5dfdf3d0b1f8ebebabe07bbc5bd96cf65e676",
+                "reference": "d1c5dfdf3d0b1f8ebebabe07bbc5bd96cf65e676",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "conflict": {
+                "reflar/user-management": "^0.1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Flagrow Terms",
+                    "icon": {
+                        "name": "paperclip",
+                        "backgroundColor": "#f4f4f4",
+                        "color": "#5f4bb6"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/11714-flagrow-terms-ask-your-users-to-accept-tos-and-privacy-policy"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\Terms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                }
+            ],
+            "description": "Ask users to accept terms of use before using the forum",
+            "keywords": [
+                "Policy",
+                "extension",
+                "flagrow",
+                "flarum",
+                "terms",
+                "tos"
+            ],
+            "time": "2018-06-01 17:55:50"
         },
         {
             "name": "flarum/core",
@@ -768,7 +937,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2018-01-06T09:34:42+00:00"
+            "time": "2018-01-06 09:34:42"
         },
         {
             "name": "flarum/flarum-ext-akismet",
@@ -823,7 +992,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2016-10-19T10:42:05+00:00"
+            "time": "2016-10-19 10:42:05"
         },
         {
             "name": "flarum/flarum-ext-approval",
@@ -876,7 +1045,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2017-07-22T02:52:03+00:00"
+            "time": "2017-07-22 02:52:03"
         },
         {
             "name": "flarum/flarum-ext-auth-facebook",
@@ -929,7 +1098,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2016-10-19T10:42:20+00:00"
+            "time": "2016-10-19 10:42:20"
         },
         {
             "name": "flarum/flarum-ext-auth-github",
@@ -982,7 +1151,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2016-10-19T10:42:27+00:00"
+            "time": "2016-10-19 10:42:27"
         },
         {
             "name": "flarum/flarum-ext-auth-twitter",
@@ -1035,7 +1204,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2016-10-19T10:42:36+00:00"
+            "time": "2016-10-19 10:42:36"
         },
         {
             "name": "flarum/flarum-ext-bbcode",
@@ -1087,7 +1256,7 @@
             "keywords": [
                 "formatting"
             ],
-            "time": "2016-03-29T08:14:20+00:00"
+            "time": "2016-03-29 08:14:20"
         },
         {
             "name": "flarum/flarum-ext-emoji",
@@ -1138,7 +1307,7 @@
             "keywords": [
                 "formatting"
             ],
-            "time": "2016-10-19T10:42:56+00:00"
+            "time": "2016-10-19 10:42:56"
         },
         {
             "name": "flarum/flarum-ext-english",
@@ -1184,7 +1353,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2017-07-22T02:38:43+00:00"
+            "time": "2017-07-22 02:38:43"
         },
         {
             "name": "flarum/flarum-ext-flags",
@@ -1236,7 +1405,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2017-07-22T02:50:24+00:00"
+            "time": "2017-07-22 02:50:24"
         },
         {
             "name": "flarum/flarum-ext-likes",
@@ -1288,7 +1457,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19T10:43:14+00:00"
+            "time": "2016-10-19 10:43:14"
         },
         {
             "name": "flarum/flarum-ext-lock",
@@ -1340,7 +1509,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2017-07-22T02:48:15+00:00"
+            "time": "2017-07-22 02:48:15"
         },
         {
             "name": "flarum/flarum-ext-markdown",
@@ -1395,7 +1564,7 @@
             "keywords": [
                 "formatting"
             ],
-            "time": "2016-03-29T08:17:28+00:00"
+            "time": "2016-03-29 08:17:28"
         },
         {
             "name": "flarum/flarum-ext-mentions",
@@ -1447,7 +1616,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2017-06-28T22:56:15+00:00"
+            "time": "2017-06-28 22:56:15"
         },
         {
             "name": "flarum/flarum-ext-pusher",
@@ -1503,7 +1672,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19T10:43:35+00:00"
+            "time": "2016-10-19 10:43:35"
         },
         {
             "name": "flarum/flarum-ext-sticky",
@@ -1555,7 +1724,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2017-07-22T02:47:30+00:00"
+            "time": "2017-07-22 02:47:30"
         },
         {
             "name": "flarum/flarum-ext-subscriptions",
@@ -1607,7 +1776,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19T10:43:45+00:00"
+            "time": "2016-10-19 10:43:45"
         },
         {
             "name": "flarum/flarum-ext-suspend",
@@ -1659,7 +1828,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2017-07-22T02:46:24+00:00"
+            "time": "2017-07-22 02:46:24"
         },
         {
             "name": "flarum/flarum-ext-tags",
@@ -1711,7 +1880,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2017-07-22T02:45:22+00:00"
+            "time": "2017-07-22 02:45:22"
         },
         {
             "name": "franzl/whoops-middleware",
@@ -1741,7 +1910,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-04-27T14:08:29+00:00"
+            "time": "2016-04-27 14:08:29"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1806,7 +1975,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-04-22T15:46:56+00:00"
+            "time": "2018-04-22 15:46:56"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1857,7 +2026,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20T10:07:11+00:00"
+            "time": "2016-12-20 10:07:11"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1922,7 +2091,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20T17:10:46+00:00"
+            "time": "2017-03-20 17:10:46"
         },
         {
             "name": "http-interop/http-middleware",
@@ -1975,7 +2144,7 @@
                 "response"
             ],
             "abandoned": "http-interop/http-server-middleware",
-            "time": "2016-09-25T13:30:27+00:00"
+            "time": "2016-09-25 13:30:27"
         },
         {
             "name": "illuminate/bus",
@@ -2020,7 +2189,7 @@
             ],
             "description": "The Illuminate Bus package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-24T19:50:28+00:00"
+            "time": "2015-12-24 19:50:28"
         },
         {
             "name": "illuminate/cache",
@@ -2070,7 +2239,7 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-02T07:48:05+00:00"
+            "time": "2016-08-02 07:48:05"
         },
         {
             "name": "illuminate/config",
@@ -2115,7 +2284,7 @@
             ],
             "description": "The Illuminate Config package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-18T02:16:31+00:00"
+            "time": "2015-06-18 02:16:31"
         },
         {
             "name": "illuminate/container",
@@ -2158,7 +2327,7 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "http://laravel.com",
-            "time": "2016-06-14T13:37:44+00:00"
+            "time": "2016-06-14 13:37:44"
         },
         {
             "name": "illuminate/contracts",
@@ -2200,7 +2369,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2015-09-24T11:16:48+00:00"
+            "time": "2015-09-24 11:16:48"
         },
         {
             "name": "illuminate/database",
@@ -2260,7 +2429,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2016-08-10T12:23:17+00:00"
+            "time": "2016-08-10 12:23:17"
         },
         {
             "name": "illuminate/events",
@@ -2305,7 +2474,7 @@
             ],
             "description": "The Illuminate Events package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-30T20:19:08+00:00"
+            "time": "2015-12-30 20:19:08"
         },
         {
             "name": "illuminate/filesystem",
@@ -2355,7 +2524,7 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2016-05-28T21:16:16+00:00"
+            "time": "2016-05-28 21:16:16"
         },
         {
             "name": "illuminate/hashing",
@@ -2399,7 +2568,7 @@
             ],
             "description": "The Illuminate Hashing package.",
             "homepage": "http://laravel.com",
-            "time": "2015-11-29T16:58:05+00:00"
+            "time": "2015-11-29 16:58:05"
         },
         {
             "name": "illuminate/mail",
@@ -2451,7 +2620,7 @@
             ],
             "description": "The Illuminate Mail package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-04T14:14:51+00:00"
+            "time": "2016-08-04 14:14:51"
         },
         {
             "name": "illuminate/pipeline",
@@ -2495,7 +2664,7 @@
             ],
             "description": "The Illuminate Pipeline package.",
             "homepage": "http://laravel.com",
-            "time": "2015-10-05T21:58:27+00:00"
+            "time": "2015-10-05 21:58:27"
         },
         {
             "name": "illuminate/support",
@@ -2549,7 +2718,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2016-06-11T16:44:59+00:00"
+            "time": "2016-06-11 16:44:59"
         },
         {
             "name": "illuminate/validation",
@@ -2599,7 +2768,7 @@
             ],
             "description": "The Illuminate Validation package.",
             "homepage": "http://laravel.com",
-            "time": "2016-05-28T21:16:16+00:00"
+            "time": "2016-05-28 21:16:16"
         },
         {
             "name": "illuminate/view",
@@ -2647,7 +2816,7 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "http://laravel.com",
-            "time": "2016-07-18T11:06:23+00:00"
+            "time": "2016-07-18 11:06:23"
         },
         {
             "name": "intervention/image",
@@ -2717,7 +2886,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-09-21T16:29:17+00:00"
+            "time": "2017-09-21 16:29:17"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -2772,7 +2941,7 @@
                 "random-numbers",
                 "random-strings"
             ],
-            "time": "2016-09-07T15:52:06+00:00"
+            "time": "2016-09-07 15:52:06"
         },
         {
             "name": "ircmaxell/security-lib",
@@ -2818,7 +2987,7 @@
             ],
             "description": "A Base Security Library",
             "homepage": "https://github.com/ircmaxell/SecurityLib",
-            "time": "2015-03-20T14:31:23+00:00"
+            "time": "2015-03-20 14:31:23"
         },
         {
             "name": "league/flysystem",
@@ -2902,7 +3071,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-04-06T09:58:14+00:00"
+            "time": "2018-04-06 09:58:14"
         },
         {
             "name": "league/oauth1-client",
@@ -2965,7 +3134,7 @@
                 "tumblr",
                 "twitter"
             ],
-            "time": "2016-08-17T00:36:58+00:00"
+            "time": "2016-08-17 00:36:58"
         },
         {
             "name": "league/oauth2-client",
@@ -3028,7 +3197,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2016-07-28T13:20:43+00:00"
+            "time": "2016-07-28 13:20:43"
         },
         {
             "name": "league/oauth2-facebook",
@@ -3079,7 +3248,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2017-07-22T01:43:12+00:00"
+            "time": "2017-07-22 01:43:12"
         },
         {
             "name": "league/oauth2-github",
@@ -3135,7 +3304,53 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-11-22T05:14:51+00:00"
+            "time": "2016-11-22 05:14:51"
+        },
+        {
+            "name": "matpompili/flarum-favicon",
+            "version": "v1.0.0-beta.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matpompili/flarum-favicon.git",
+                "reference": "802b727b01b7682c21595fb27f66baa87643ef27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matpompili/flarum-favicon/zipball/802b727b01b7682c21595fb27f66baa87643ef27",
+                "reference": "802b727b01b7682c21595fb27f66baa87643ef27",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.3"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Favicon",
+                    "icon": {
+                        "name": "file-image-o",
+                        "backgroundColor": "#000",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Matpompili\\Favicon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matteo Pompili",
+                    "email": "matpompili@gmail.com"
+                }
+            ],
+            "description": "Choose the favicon for your flarum forum!",
+            "time": "2015-12-17 21:48:44"
         },
         {
             "name": "matthiasmullie/minify",
@@ -3195,7 +3410,7 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2018-04-18T08:50:35+00:00"
+            "time": "2018-04-18 08:50:35"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -3244,7 +3459,7 @@
                 "paths",
                 "relative"
             ],
-            "time": "2018-02-02T11:30:10+00:00"
+            "time": "2018-02-02 11:30:10"
         },
         {
             "name": "monolog/monolog",
@@ -3322,7 +3537,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19T01:22:40+00:00"
+            "time": "2017-06-19 01:22:40"
         },
         {
             "name": "nesbot/carbon",
@@ -3370,7 +3585,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-04-23T09:02:57+00:00"
+            "time": "2018-04-23 09:02:57"
         },
         {
             "name": "nikic/fast-route",
@@ -3413,7 +3628,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2015-06-18T19:15:47+00:00"
+            "time": "2015-06-18 19:15:47"
         },
         {
             "name": "oyejorge/less.php",
@@ -3475,7 +3690,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2017-03-28T22:19:25+00:00"
+            "time": "2017-03-28 22:19:25"
         },
         {
             "name": "paragonie/random_compat",
@@ -3523,7 +3738,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2018-04-04T21:48:54+00:00"
+            "time": "2018-04-04 21:48:54"
         },
         {
             "name": "psr/http-message",
@@ -3573,7 +3788,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "psr/log",
@@ -3620,7 +3835,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "pusher/pusher-php-server",
@@ -3664,7 +3879,124 @@
                 "rest",
                 "trigger"
             ],
-            "time": "2017-06-06T16:41:17+00:00"
+            "time": "2017-06-06 16:41:17"
+        },
+        {
+            "name": "reflar/polls",
+            "version": "1.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ReFlar/polls.git",
+                "reference": "ccaee3ce698ed9ad3ebf5bdf0610ef8a7b5ce81b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ReFlar/polls/zipball/ccaee3ce698ed9ad3ebf5bdf0610ef8a7b5ce81b",
+                "reference": "ccaee3ce698ed9ad3ebf5bdf0610ef8a7b5ce81b",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "ReFlar Polls",
+                    "icon": {
+                        "name": "signal",
+                        "backgroundColor": "#263238",
+                        "color": "#ffffff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/9762-poll"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Reflar\\Polls\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shahiem Seymor",
+                    "email": "shahiem.seymor@reflar.email",
+                    "homepage": "https://reflar.io"
+                }
+            ],
+            "description": "A poll extension for your flarum Forum.",
+            "keywords": [
+                "answer",
+                "extension",
+                "flarum",
+                "poll",
+                "polls",
+                "reflar"
+            ],
+            "time": "2018-06-07 04:47:37"
+        },
+        {
+            "name": "reflar/uncache",
+            "version": "0.1.0-beta.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ReFlar/UnCache.git",
+                "reference": "74adcb8ab27411919eabd78348f88f8fcc274908"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ReFlar/UnCache/zipball/74adcb8ab27411919eabd78348f88f8fcc274908",
+                "reference": "74adcb8ab27411919eabd78348f88f8fcc274908",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta-7.1",
+                "guzzlehttp/guzzle": "^6.2.2"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "ReFlar UnCache",
+                    "icon": {
+                        "name": "archive",
+                        "backgroundColor": "#263238",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Reflar\\UnCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CDK2020",
+                    "email": "CDK2020@reflar.email",
+                    "homepage": "https://redevs.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "No more cache related problems!",
+            "keywords": [
+                "cache",
+                "clear",
+                "flarum",
+                "reflar",
+                "uncache"
+            ],
+            "time": "2018-05-23 21:38:50"
         },
         {
             "name": "s9e/text-formatter",
@@ -3729,7 +4061,102 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2016-12-11T00:03:31+00:00"
+            "time": "2016-12-11 00:03:31"
+        },
+        {
+            "name": "samdark/sitemap",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samdark/sitemap.git",
+                "reference": "c897f7a9cb0882e34169359a5f1f715e05b34d67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samdark/sitemap/zipball/c897f7a9cb0882e34169359a5f1f715e05b34d67",
+                "reference": "c897f7a9cb0882e34169359a5f1f715e05b34d67",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlwriter": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "samdark\\sitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Makarov",
+                    "email": "sam@rmcreative.ru",
+                    "homepage": "http://rmcreative.ru/"
+                }
+            ],
+            "description": "Sitemap and sitemap index builder",
+            "homepage": "https://github.com/samdark/sitemap",
+            "keywords": [
+                "Sitemap"
+            ],
+            "time": "2018-02-02 09:27:13"
+        },
+        {
+            "name": "sijad/flarum-ext-pages",
+            "version": "0.1.0-beta.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sijad/flarum-ext-pages.git",
+                "reference": "ea54b0a0440663856911e845530caf82b71ded8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sijad/flarum-ext-pages/zipball/ea54b0a0440663856911e845530caf82b71ded8c",
+                "reference": "ea54b0a0440663856911e845530caf82b71ded8c",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.6"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Pages",
+                    "icon": {
+                        "name": "file-text-o",
+                        "backgroundColor": "#4C49A2",
+                        "color": "#B8DC3C"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sijad\\Pages\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sajjad Hashemian",
+                    "email": "wolaws@gmail.com"
+                }
+            ],
+            "description": "Create custom page with Flarum",
+            "keywords": [
+                "page",
+                "static"
+            ],
+            "time": "2016-10-23 14:52:44"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3783,7 +4210,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2018-01-23T07:37:21+00:00"
+            "time": "2018-01-23 07:37:21"
         },
         {
             "name": "symfony/console",
@@ -3844,7 +4271,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03T05:20:27+00:00"
+            "time": "2018-04-03 05:20:27"
         },
         {
             "name": "symfony/debug",
@@ -3901,7 +4328,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03T05:05:54+00:00"
+            "time": "2018-04-03 05:05:54"
         },
         {
             "name": "symfony/finder",
@@ -3950,7 +4377,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-04T06:34:32+00:00"
+            "time": "2018-04-04 06:34:32"
         },
         {
             "name": "symfony/http-foundation",
@@ -4006,7 +4433,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-23T12:28:22+00:00"
+            "time": "2018-04-23 12:28:22"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4065,7 +4492,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-01-30T19:27:44+00:00"
+            "time": "2018-01-30 19:27:44"
         },
         {
             "name": "symfony/translation",
@@ -4128,7 +4555,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-17T08:38:26+00:00"
+            "time": "2018-01-17 08:38:26"
         },
         {
             "name": "symfony/yaml",
@@ -4177,7 +4604,58 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:36:31+00:00"
+            "time": "2018-01-03 07:36:31"
+        },
+        {
+            "name": "terabin/flarum-ext-sitemap",
+            "version": "v1.0.2-beta.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/terabin/flarum-ext-sitemap.git",
+                "reference": "2d4df9ee69aebe7b0dab83b4e7dfd9ee369691a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/terabin/flarum-ext-sitemap/zipball/2d4df9ee69aebe7b0dab83b4e7dfd9ee369691a7",
+                "reference": "2d4df9ee69aebe7b0dab83b4e7dfd9ee369691a7",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5",
+                "samdark/sitemap": "^2.0.4"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Sitemap",
+                    "icon": {
+                        "name": "sitemap",
+                        "backgroundColor": "#000",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Terabin\\Sitemap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Allyson S Bacon",
+                    "email": "allyson_198@hotmail.com"
+                }
+            ],
+            "description": "Generate a Sitemap for Flarum automatically",
+            "keywords": [
+                "Sitemap",
+                "generator"
+            ],
+            "time": "2016-11-17 19:09:48"
         },
         {
             "name": "tijsverkoyen/akismet",
@@ -4216,7 +4694,7 @@
             ],
             "description": "Akismet is a wrapper-class to communicate with the Akismet API.",
             "homepage": "https://github.com/tijsverkoyen/Akismet",
-            "time": "2016-07-19T13:50:18+00:00"
+            "time": "2016-07-19 13:50:18"
         },
         {
             "name": "tobscure/json-api",
@@ -4266,7 +4744,54 @@
                 "jsonapi",
                 "standard"
             ],
-            "time": "2016-03-31T09:25:28+00:00"
+            "time": "2016-03-31 09:25:28"
+        },
+        {
+            "name": "vingle/flarum-configure-smtp",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tutula1/vingle-configure-smtp.git",
+                "reference": "52cd54cb143715be553dc11f023da0cd9502c345"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tutula1/vingle-configure-smtp/zipball/52cd54cb143715be553dc11f023da0cd9502c345",
+                "reference": "52cd54cb143715be553dc11f023da0cd9502c345",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.5"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Configure SMTP",
+                    "icon": {
+                        "name": "cogs",
+                        "backgroundColor": "#000",
+                        "backgroundSize": "100%",
+                        "color": "#ff0"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vingle\\Configure\\Smtp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Binh Duong",
+                    "email": "binh.duong@vingle.net"
+                }
+            ],
+            "description": "SMTP Config UI.",
+            "keywords": [
+                "smtp"
+            ],
+            "time": "2016-04-07 04:07:17"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -4318,7 +4843,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2018-02-26T15:44:50+00:00"
+            "time": "2018-02-26 15:44:50"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -4363,7 +4888,7 @@
                 "escaper",
                 "zf"
             ],
-            "time": "2018-04-25T15:48:53+00:00"
+            "time": "2018-04-25 15:48:53"
         },
         {
             "name": "zendframework/zend-stratigility",
@@ -4416,7 +4941,7 @@
                 "middleware",
                 "psr-7"
             ],
-            "time": "2017-01-23T22:59:03+00:00"
+            "time": "2017-01-23 22:59:03"
         }
     ],
     "packages-dev": [
@@ -4472,7 +4997,7 @@
                 "development",
                 "workflow"
             ],
-            "time": "2016-11-25T17:31:51+00:00"
+            "time": "2016-11-25 17:31:51"
         },
         {
             "name": "symfony/filesystem",
@@ -4521,7 +5046,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-02-22T10:48:49+00:00"
+            "time": "2018-02-22 10:48:49"
         },
         {
             "name": "symfony/process",
@@ -4570,12 +5095,17 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-04-03T05:22:50+00:00"
+            "time": "2018-04-03 05:22:50"
         }
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "sijad/flarum-ext-pages": 10,
+        "matpompili/flarum-favicon": 10,
+        "terabin/flarum-ext-sitemap": 10,
+        "reflar/uncache": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

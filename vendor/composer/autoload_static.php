@@ -22,6 +22,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
     public static $prefixLengthsPsr4 = array (
         's' => 
         array (
+            'samdark\\sitemap\\' => 16,
             's9e\\TextFormatter\\' => 18,
         ),
         'Z' => 
@@ -34,9 +35,14 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         array (
             'Whoops\\' => 7,
         ),
+        'V' => 
+        array (
+            'Vingle\\Configure\\Smtp\\' => 22,
+        ),
         'T' => 
         array (
             'Tobscure\\JsonApi\\' => 17,
+            'Terabin\\Sitemap\\' => 16,
         ),
         'S' => 
         array (
@@ -51,6 +57,12 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Symfony\\Component\\Console\\' => 26,
             'Studio\\' => 7,
             'Stringy\\' => 8,
+            'Sijad\\Pages\\' => 12,
+        ),
+        'R' => 
+        array (
+            'Reflar\\UnCache\\' => 15,
+            'Reflar\\Polls\\' => 13,
         ),
         'P' => 
         array (
@@ -62,6 +74,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Monolog\\' => 8,
             'MatthiasMullie\\PathConverter\\' => 29,
             'MatthiasMullie\\Minify\\' => 22,
+            'Matpompili\\Favicon\\' => 19,
         ),
         'L' => 
         array (
@@ -115,6 +128,8 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Flarum\\Approval\\' => 16,
             'Flarum\\Akismet\\' => 15,
             'Flarum\\' => 7,
+            'Flagrow\\Terms\\' => 14,
+            'Flagrow\\Linguist\\' => 17,
             'FastRoute\\' => 10,
         ),
         'D' => 
@@ -124,9 +139,17 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
         ),
+        'A' => 
+        array (
+            'Avatar4eg\\UsersList\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'samdark\\sitemap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/samdark/sitemap',
+        ),
         's9e\\TextFormatter\\' => 
         array (
             0 => __DIR__ . '/..' . '/s9e/text-formatter/src',
@@ -147,9 +170,17 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
         ),
+        'Vingle\\Configure\\Smtp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vingle/flarum-configure-smtp/src',
+        ),
         'Tobscure\\JsonApi\\' => 
         array (
             0 => __DIR__ . '/..' . '/tobscure/json-api/src',
+        ),
+        'Terabin\\Sitemap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/terabin/flarum-ext-sitemap/src',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
@@ -195,6 +226,18 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         array (
             0 => __DIR__ . '/..' . '/danielstjules/stringy/src',
         ),
+        'Sijad\\Pages\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sijad/flarum-ext-pages/src',
+        ),
+        'Reflar\\UnCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/reflar/uncache/src',
+        ),
+        'Reflar\\Polls\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/reflar/polls/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -214,6 +257,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'MatthiasMullie\\Minify\\' => 
         array (
             0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
+        ),
+        'Matpompili\\Favicon\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/matpompili/flarum-favicon/src',
         ),
         'League\\OAuth2\\Client\\' => 
         array (
@@ -381,6 +428,14 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
         ),
+        'Flagrow\\Terms\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/terms/src',
+        ),
+        'Flagrow\\Linguist\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/linguist/src',
+        ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
@@ -400,6 +455,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'Dflydev\\FigCookies\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
+        ),
+        'Avatar4eg\\UsersList\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/avatar4eg/flarum-ext-users-list/src',
         ),
     );
 
