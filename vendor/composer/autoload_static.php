@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
 {
     public static $files = array (
-        '65fec9ebcfbb3cbb4fd0d519687aea01' => __DIR__ . '/..' . '/danielstjules/stringy/src/Create.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
+        '65fec9ebcfbb3cbb4fd0d519687aea01' => __DIR__ . '/..' . '/danielstjules/stringy/src/Create.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
@@ -17,6 +17,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '84245cb95409c51c4ae97f8e59da883a' => __DIR__ . '/..' . '/flarum/core/src/helpers.php',
+        'e4ccf71de638ae9edd3ec4c796a3ffcf' => __DIR__ . '/..' . '/flagrow/upload/src/Helpers/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -62,7 +63,9 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'R' => 
         array (
             'Reflar\\UnCache\\' => 15,
+            'Reflar\\Reactions\\' => 17,
             'Reflar\\Polls\\' => 13,
+            'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
         array (
@@ -132,6 +135,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Flarum\\Approval\\' => 16,
             'Flarum\\Akismet\\' => 15,
             'Flarum\\' => 7,
+            'Flagrow\\Upload\\' => 15,
             'Flagrow\\Terms\\' => 14,
             'Flagrow\\Linguist\\' => 17,
             'FastRoute\\' => 10,
@@ -238,9 +242,17 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         array (
             0 => __DIR__ . '/..' . '/reflar/uncache/src',
         ),
+        'Reflar\\Reactions\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/reflar/reactions/src',
+        ),
         'Reflar\\Polls\\' => 
         array (
             0 => __DIR__ . '/..' . '/reflar/polls/src',
+        ),
+        'Ramsey\\Uuid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
         'Psr\\Log\\' => 
         array (
@@ -435,6 +447,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'Flarum\\' => 
         array (
             0 => __DIR__ . '/..' . '/flarum/core/src',
+        ),
+        'Flagrow\\Upload\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/upload/src',
         ),
         'Flagrow\\Terms\\' => 
         array (

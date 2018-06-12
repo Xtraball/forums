@@ -49,7 +49,9 @@
         "flagrow/linguist": "^0.2.0",
         "reflar/uncache": "^0.1.0@beta",
         "flagrow/terms": "^0.2.2",
-        "noriods/auto-more": "^0.2.0"
+        "noriods/auto-more": "^0.2.0",
+        "flagrow/upload": "^0.6.0",
+        "reflar/reactions": "1.0.0-beta.4.1"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"

@@ -23825,8 +23825,7 @@ System.register('flarum/components/LogInButton', ['flarum/components/Button'], f
               var height = 400;
               var $window = $(window);
 
-              window.open('https://www.siberiancms.com/wp-login.php?redirect_to=open-source');
-              //window.open(app.forum.attribute('baseUrl') + props.path, 'logInPopup', 'width=' + width + ',' + ('height=' + height + ',') + ('top=' + ($window.height() / 2 - height / 2) + ',') + ('left=' + ($window.width() / 2 - width / 2) + ',') + 'status=no,scrollbars=no,resizable=no');
+              window.open(app.forum.attribute('baseUrl') + props.path, 'logInPopup', 'width=' + width + ',' + ('height=' + height + ',') + ('top=' + ($window.height() / 2 - height / 2) + ',') + ('left=' + ($window.width() / 2 - width / 2) + ',') + 'status=no,scrollbars=no,resizable=no');
             };
 
             babelHelpers.get(LogInButton.__proto__ || Object.getPrototypeOf(LogInButton), 'initProps', this).call(this, props);
