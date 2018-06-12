@@ -17,7 +17,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
-        "time": "2016-09-16 08:42:06",
+        "time": "2016-09-16T08:42:06+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -66,7 +66,7 @@
             "reference": "885308b939369d147bec93174722786bc2c4eedd",
             "shasum": ""
         },
-        "time": "2016-10-25 10:56:23",
+        "time": "2016-10-25T10:56:23+00:00",
         "type": "component",
         "extra": {
             "component": {
@@ -110,7 +110,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2015-07-23 00:54:12",
+        "time": "2015-07-23T00:54:12+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -170,7 +170,7 @@
             "phpunit/phpunit": "~4.5",
             "squizlabs/php_codesniffer": "~2.3"
         },
-        "time": "2016-03-28 09:10:18",
+        "time": "2016-03-28T09:10:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -223,7 +223,7 @@
             "doctrine/cache": "1.*",
             "phpunit/phpunit": "^5.7"
         },
-        "time": "2017-02-24 16:22:25",
+        "time": "2017-02-24T16:22:25+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -296,7 +296,7 @@
             "predis/predis": "~1.0",
             "satooshi/php-coveralls": "~0.6"
         },
-        "time": "2017-07-22 12:49:21",
+        "time": "2017-07-22T12:49:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -364,7 +364,7 @@
             "doctrine/coding-standard": "~0.1@dev",
             "phpunit/phpunit": "^5.7"
         },
-        "time": "2017-01-03 10:49:41",
+        "time": "2017-01-03T10:49:41+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -437,7 +437,7 @@
         "require-dev": {
             "phpunit/phpunit": "^5.4.6"
         },
-        "time": "2017-07-22 08:35:12",
+        "time": "2017-07-22T08:35:12+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -512,7 +512,7 @@
         "suggest": {
             "symfony/console": "For helpful console commands such as SQL execution and import of files."
         },
-        "time": "2017-07-22 20:44:48",
+        "time": "2017-07-22T20:44:48+00:00",
         "bin": [
             "bin/doctrine-dbal"
         ],
@@ -580,7 +580,7 @@
         "require-dev": {
             "phpunit/phpunit": "4.*"
         },
-        "time": "2015-11-06 14:35:42",
+        "time": "2015-11-06T14:35:42+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -646,7 +646,7 @@
         "require": {
             "php": ">=5.3.2"
         },
-        "time": "2014-09-09 13:34:57",
+        "time": "2014-09-09T13:34:57+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -686,17 +686,17 @@
     },
     {
         "name": "filp/whoops",
-        "version": "2.1.14",
-        "version_normalized": "2.1.14.0",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/filp/whoops.git",
-            "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6"
+            "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/filp/whoops/zipball/c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
-            "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
+            "url": "https://api.github.com/repos/filp/whoops/zipball/181c4502d8f34db7aed7bfe88d4f87875b8e947a",
+            "reference": "181c4502d8f34db7aed7bfe88d4f87875b8e947a",
             "shasum": ""
         },
         "require": {
@@ -704,19 +704,19 @@
             "psr/log": "^1.0.1"
         },
         "require-dev": {
-            "mockery/mockery": "0.9.*",
+            "mockery/mockery": "^0.9 || ^1.0",
             "phpunit/phpunit": "^4.8.35 || ^5.7",
-            "symfony/var-dumper": "^2.6 || ^3.0"
+            "symfony/var-dumper": "^2.6 || ^3.0 || ^4.0"
         },
         "suggest": {
             "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
             "whoops/soap": "Formats errors as SOAP responses"
         },
-        "time": "2017-11-23 18:22:44",
+        "time": "2018-03-03T17:56:25+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.0-dev"
+                "dev-master": "2.1-dev"
             }
         },
         "installation-source": "dist",
@@ -765,7 +765,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2018-06-10 20:29:58",
+        "time": "2018-06-10T20:29:58+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -827,7 +827,7 @@
         "conflict": {
             "reflar/user-management": "^0.1.0"
         },
-        "time": "2018-06-01 17:55:50",
+        "time": "2018-06-01T17:55:50+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -867,6 +867,78 @@
             "flarum",
             "terms",
             "tos"
+        ]
+    },
+    {
+        "name": "flagrow/upload",
+        "version": "0.6.0",
+        "version_normalized": "0.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flagrow/upload.git",
+            "reference": "66710f376d3d73e61bbd93559498289b834df35f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flagrow/upload/zipball/66710f376d3d73e61bbd93559498289b834df35f",
+            "reference": "66710f376d3d73e61bbd93559498289b834df35f",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.6",
+            "ramsey/uuid": "^3.5.2"
+        },
+        "require-dev": {
+            "flagrow/steamroller": "dev-master",
+            "league/flysystem": "^1.0.32",
+            "league/flysystem-aws-s3-v3": "^1.0",
+            "techyah/flysystem-ovh": "^1.0"
+        },
+        "suggest": {
+            "league/flysystem-aws-s3-v3": "Uploads to AWS S3 using API version 3.",
+            "techyah/flysystem-ovh": "Uploads to OVH Swift vfs using API."
+        },
+        "time": "2017-11-14T08:28:40+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Flagrow Upload",
+                "icon": {
+                    "name": "files-o",
+                    "backgroundColor": "#f4f4f4",
+                    "color": "#5f4bb6"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/4154-flagrow-upload-the-intelligent-file-attachment-extension"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Flagrow\\Upload\\": "src/"
+            },
+            "files": [
+                "src/Helpers/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniël Klabbers",
+                "email": "daniel@klabbers.email",
+                "homepage": "http://luceos.com"
+            }
+        ],
+        "description": "The file upload extension for the Flarum forum with insane intelligence.",
+        "keywords": [
+            "file",
+            "flagrow",
+            "flarum",
+            "upload"
         ]
     },
     {
@@ -924,7 +996,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^4.8"
         },
-        "time": "2018-01-06 09:34:42",
+        "time": "2018-01-06T09:34:42+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -981,7 +1053,7 @@
             "flarum/flarum-ext-approval": "^0.1.0-beta.6",
             "tijsverkoyen/akismet": "^1.1"
         },
-        "time": "2016-10-19 10:42:05",
+        "time": "2016-10-19T10:42:05+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1037,7 +1109,7 @@
             "flarum/core": "^0.1.0-beta.7",
             "flarum/flarum-ext-flags": "^0.1.0-beta.6"
         },
-        "time": "2017-07-22 02:52:03",
+        "time": "2017-07-22T02:52:03+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1092,7 +1164,7 @@
             "flarum/core": "^0.1.0-beta.6",
             "league/oauth2-facebook": "~1.0"
         },
-        "time": "2016-10-19 10:42:20",
+        "time": "2016-10-19T10:42:20+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1147,7 +1219,7 @@
             "flarum/core": "^0.1.0-beta.6",
             "league/oauth2-github": "^0.2.0"
         },
-        "time": "2016-10-19 10:42:27",
+        "time": "2016-10-19T10:42:27+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1202,7 +1274,7 @@
             "flarum/core": "^0.1.0-beta.6",
             "league/oauth1-client": "^1.6"
         },
-        "time": "2016-10-19 10:42:36",
+        "time": "2016-10-19T10:42:36+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1256,7 +1328,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
-        "time": "2016-03-29 08:14:20",
+        "time": "2016-03-29T08:14:20+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1310,7 +1382,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.6"
         },
-        "time": "2016-10-19 10:42:56",
+        "time": "2016-10-19T10:42:56+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1363,7 +1435,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-07-22 02:38:43",
+        "time": "2017-07-22T02:38:43+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1411,7 +1483,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-07-22 02:50:24",
+        "time": "2017-07-22T02:50:24+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1465,7 +1537,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.6"
         },
-        "time": "2016-10-19 10:43:14",
+        "time": "2016-10-19T10:43:14+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1519,7 +1591,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-07-22 02:48:15",
+        "time": "2017-07-22T02:48:15+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1573,7 +1645,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
-        "time": "2016-03-29 08:17:28",
+        "time": "2016-03-29T08:17:28+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1630,7 +1702,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.6"
         },
-        "time": "2017-06-28 22:56:15",
+        "time": "2017-06-28T22:56:15+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1685,7 +1757,7 @@
             "flarum/core": "^0.1.0-beta.6",
             "pusher/pusher-php-server": "^2.2"
         },
-        "time": "2016-10-19 10:43:35",
+        "time": "2016-10-19T10:43:35+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1742,7 +1814,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-07-22 02:47:30",
+        "time": "2017-07-22T02:47:30+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1796,7 +1868,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.6"
         },
-        "time": "2016-10-19 10:43:45",
+        "time": "2016-10-19T10:43:45+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1850,7 +1922,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-07-22 02:46:24",
+        "time": "2017-07-22T02:46:24+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1904,7 +1976,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2017-07-22 02:45:22",
+        "time": "2017-07-22T02:45:22+00:00",
         "type": "flarum-extension",
         "extra": {
             "branch-alias": {
@@ -1968,7 +2040,7 @@
             "composer/composer": "dev-master",
             "phpspec/phpspec": "~2.3"
         },
-        "time": "2016-11-25 17:31:51",
+        "time": "2016-11-25T17:31:51+00:00",
         "bin": [
             "bin/studio"
         ],
@@ -2018,7 +2090,7 @@
         "require-dev": {
             "phpunit/phpunit": "5.0.*"
         },
-        "time": "2016-04-27 14:08:29",
+        "time": "2016-04-27T14:08:29+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -2056,7 +2128,7 @@
         "suggest": {
             "psr/log": "Required for using the Log middleware"
         },
-        "time": "2018-04-22 15:46:56",
+        "time": "2018-04-22T15:46:56+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2116,7 +2188,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.0"
         },
-        "time": "2016-12-20 10:07:11",
+        "time": "2016-12-20T10:07:11+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2173,7 +2245,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2017-03-20 17:10:46",
+        "time": "2017-03-20T17:10:46+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2234,7 +2306,7 @@
             "php": ">=5.3.0",
             "psr/http-message": "^1.0"
         },
-        "time": "2016-09-25 13:30:27",
+        "time": "2016-09-25T13:30:27+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2291,7 +2363,7 @@
             "illuminate/support": "5.1.*",
             "php": ">=5.5.9"
         },
-        "time": "2015-12-24 19:50:28",
+        "time": "2015-12-24T19:50:28+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2343,7 +2415,7 @@
             "illuminate/filesystem": "Required to use the file cache driver (5.1.*).",
             "illuminate/redis": "Required to use the redis cache driver (5.1.*)."
         },
-        "time": "2016-08-02 07:48:05",
+        "time": "2016-08-02T07:48:05+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2390,7 +2462,7 @@
             "illuminate/support": "5.1.*",
             "php": ">=5.5.9"
         },
-        "time": "2015-06-18 02:16:31",
+        "time": "2015-06-18T02:16:31+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2435,7 +2507,7 @@
             "illuminate/contracts": "5.1.*",
             "php": ">=5.5.9"
         },
-        "time": "2016-06-14 13:37:44",
+        "time": "2016-06-14T13:37:44+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2479,7 +2551,7 @@
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2015-09-24 11:16:48",
+        "time": "2015-09-24T11:16:48+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2535,7 +2607,7 @@
             "illuminate/filesystem": "Required to use the migrations (5.1.*).",
             "illuminate/pagination": "Required to paginate the result set (5.1.*)."
         },
-        "time": "2016-08-10 12:23:17",
+        "time": "2016-08-10T12:23:17+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2588,7 +2660,7 @@
             "illuminate/support": "5.1.*",
             "php": ">=5.5.9"
         },
-        "time": "2015-12-30 20:19:08",
+        "time": "2015-12-30T20:19:08+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2640,7 +2712,7 @@
             "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
             "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0)."
         },
-        "time": "2016-05-28 21:16:16",
+        "time": "2016-05-28T21:16:16+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2686,7 +2758,7 @@
             "illuminate/support": "5.1.*",
             "php": ">=5.5.9"
         },
-        "time": "2015-11-29 16:58:05",
+        "time": "2015-11-29T16:58:05+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2740,7 +2812,7 @@
             "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers (~5.3|~6.0).",
             "jeremeamia/superclosure": "Required to be able to serialize closures (~2.0)."
         },
-        "time": "2016-08-04 14:14:51",
+        "time": "2016-08-04T14:14:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2786,7 +2858,7 @@
             "illuminate/support": "5.1.*",
             "php": ">=5.5.9"
         },
-        "time": "2015-10-05 21:58:27",
+        "time": "2015-10-05T21:58:27+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2839,7 +2911,7 @@
             "jeremeamia/superclosure": "Required to be able to serialize closures (~2.0).",
             "symfony/var-dumper": "Improves the dd function (2.7.*)."
         },
-        "time": "2016-06-11 16:44:59",
+        "time": "2016-06-11T16:44:59+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2894,7 +2966,7 @@
         "suggest": {
             "illuminate/database": "Required to use the database presence verifier (5.1.*)."
         },
-        "time": "2016-05-28 21:16:16",
+        "time": "2016-05-28T21:16:16+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2944,7 +3016,7 @@
             "php": ">=5.5.9",
             "symfony/debug": "2.7.*"
         },
-        "time": "2016-07-18 11:06:23",
+        "time": "2016-07-18T11:06:23+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2972,17 +3044,17 @@
     },
     {
         "name": "intervention/image",
-        "version": "2.4.1",
-        "version_normalized": "2.4.1.0",
+        "version": "2.4.2",
+        "version_normalized": "2.4.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Intervention/image.git",
-            "reference": "3603dbcc9a17d307533473246a6c58c31cf17919"
+            "reference": "e82d274f786e3d4b866a59b173f42e716f0783eb"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Intervention/image/zipball/3603dbcc9a17d307533473246a6c58c31cf17919",
-            "reference": "3603dbcc9a17d307533473246a6c58c31cf17919",
+            "url": "https://api.github.com/repos/Intervention/image/zipball/e82d274f786e3d4b866a59b173f42e716f0783eb",
+            "reference": "e82d274f786e3d4b866a59b173f42e716f0783eb",
             "shasum": ""
         },
         "require": {
@@ -2999,11 +3071,11 @@
             "ext-imagick": "to use Imagick based image processing.",
             "intervention/imagecache": "Caching extension for the Intervention Image library"
         },
-        "time": "2017-09-21 16:29:17",
+        "time": "2018-05-29T14:19:03+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.3-dev"
+                "dev-master": "2.4-dev"
             },
             "laravel": {
                 "providers": [
@@ -3066,7 +3138,7 @@
             "mikey179/vfsstream": "^1.6",
             "phpunit/phpunit": "^4.8|^5.0"
         },
-        "time": "2016-09-07 15:52:06",
+        "time": "2016-09-07T15:52:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3120,7 +3192,7 @@
         "require-dev": {
             "mikey179/vfsstream": "1.1.*"
         },
-        "time": "2015-03-20 14:31:23",
+        "time": "2015-03-20T14:31:23+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3149,17 +3221,17 @@
     },
     {
         "name": "league/flysystem",
-        "version": "1.0.44",
-        "version_normalized": "1.0.44.0",
+        "version": "1.0.45",
+        "version_normalized": "1.0.45.0",
         "source": {
             "type": "git",
             "url": "https://github.com/thephpleague/flysystem.git",
-            "reference": "168dbe519737221dc87d17385cde33073881fd02"
+            "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/168dbe519737221dc87d17385cde33073881fd02",
-            "reference": "168dbe519737221dc87d17385cde33073881fd02",
+            "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
+            "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
             "shasum": ""
         },
         "require": {
@@ -3189,7 +3261,7 @@
             "spatie/flysystem-dropbox": "Allows you to use Dropbox storage",
             "srmklive/flysystem-dropbox-v2": "Allows you to use Dropbox storage for PHP 5 applications"
         },
-        "time": "2018-04-06 09:58:14",
+        "time": "2018-05-07T08:44:23+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3257,7 +3329,7 @@
             "phpunit/phpunit": "^4.0",
             "squizlabs/php_codesniffer": "^2.0"
         },
-        "time": "2016-08-17 00:36:58",
+        "time": "2016-08-17T00:36:58+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3326,7 +3398,7 @@
             "satooshi/php-coveralls": "0.6.*",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2016-07-28 13:20:43",
+        "time": "2016-07-28T13:20:43+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3387,7 +3459,7 @@
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2017-07-22 01:43:12",
+        "time": "2017-07-22T01:43:12+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3440,7 +3512,7 @@
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2016-11-22 05:14:51",
+        "time": "2016-11-22T05:14:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3492,7 +3564,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.3"
         },
-        "time": "2015-12-17 21:48:44",
+        "time": "2015-12-17T21:48:44+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -3550,7 +3622,7 @@
         "suggest": {
             "psr/cache-implementation": "Cache implementation to use with Minify::cache"
         },
-        "time": "2018-04-18 08:50:35",
+        "time": "2018-04-18T08:50:35+00:00",
         "bin": [
             "bin/minifycss",
             "bin/minifyjs"
@@ -3606,7 +3678,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.8"
         },
-        "time": "2018-02-02 11:30:10",
+        "time": "2018-02-02T11:30:10+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3683,7 +3755,7 @@
             "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
             "sentry/sentry": "Allow sending log messages to a Sentry server"
         },
-        "time": "2017-06-19 01:22:40",
+        "time": "2017-06-19T01:22:40+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -3717,17 +3789,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "1.27.0",
-        "version_normalized": "1.27.0.0",
+        "version": "1.29.2",
+        "version_normalized": "1.29.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "ef81c39b67200dcd7401c24363dcac05ac3a4fe9"
+            "reference": "ed6aa898982f441ccc9b2acdec51490f2bc5d337"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ef81c39b67200dcd7401c24363dcac05ac3a4fe9",
-            "reference": "ef81c39b67200dcd7401c24363dcac05ac3a4fe9",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ed6aa898982f441ccc9b2acdec51490f2bc5d337",
+            "reference": "ed6aa898982f441ccc9b2acdec51490f2bc5d337",
             "shasum": ""
         },
         "require": {
@@ -3738,7 +3810,7 @@
             "friendsofphp/php-cs-fixer": "~2",
             "phpunit/phpunit": "^4.8.35 || ^5.7"
         },
-        "time": "2018-04-23 09:02:57",
+        "time": "2018-05-29T15:23:46+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3783,7 +3855,7 @@
         "require": {
             "php": ">=5.4.0"
         },
-        "time": "2015-06-18 19:15:47",
+        "time": "2015-06-18T19:15:47+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3828,7 +3900,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta-7"
         },
-        "time": "2018-05-10 14:50:39",
+        "time": "2018-05-10T14:50:39+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -3886,7 +3958,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.8.24"
         },
-        "time": "2017-03-28 22:19:25",
+        "time": "2017-03-28T22:19:25+00:00",
         "bin": [
             "bin/lessc"
         ],
@@ -3953,7 +4025,7 @@
         "suggest": {
             "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
         },
-        "time": "2018-04-04 21:48:54",
+        "time": "2018-04-04T21:48:54+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3997,7 +4069,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-08-06 14:39:51",
+        "time": "2016-08-06T14:39:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4049,7 +4121,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-10-10 12:19:37",
+        "time": "2016-10-10T12:19:37+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4102,7 +4174,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4"
         },
-        "time": "2017-06-06 16:41:17",
+        "time": "2017-06-06T16:41:17+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -4127,6 +4199,88 @@
         ]
     },
     {
+        "name": "ramsey/uuid",
+        "version": "3.7.3",
+        "version_normalized": "3.7.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ramsey/uuid.git",
+            "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ramsey/uuid/zipball/44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
+            "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
+            "shasum": ""
+        },
+        "require": {
+            "paragonie/random_compat": "^1.0|^2.0",
+            "php": "^5.4 || ^7.0"
+        },
+        "replace": {
+            "rhumsaa/uuid": "self.version"
+        },
+        "require-dev": {
+            "codeception/aspect-mock": "^1.0 | ~2.0.0",
+            "doctrine/annotations": "~1.2.0",
+            "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
+            "ircmaxell/random-lib": "^1.1",
+            "jakub-onderka/php-parallel-lint": "^0.9.0",
+            "mockery/mockery": "^0.9.9",
+            "moontoast/math": "^1.1",
+            "php-mock/php-mock-phpunit": "^0.3|^1.1",
+            "phpunit/phpunit": "^4.7|^5.0",
+            "squizlabs/php_codesniffer": "^2.3"
+        },
+        "suggest": {
+            "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
+            "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
+            "ircmaxell/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
+            "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
+            "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
+            "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
+        },
+        "time": "2018-01-20T00:28:24+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Ramsey\\Uuid\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Marijn Huizendveld",
+                "email": "marijn.huizendveld@gmail.com"
+            },
+            {
+                "name": "Thibaud Fabre",
+                "email": "thibaud@aztech.io"
+            },
+            {
+                "name": "Ben Ramsey",
+                "email": "ben@benramsey.com",
+                "homepage": "https://benramsey.com"
+            }
+        ],
+        "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
+        "homepage": "https://github.com/ramsey/uuid",
+        "keywords": [
+            "guid",
+            "identifier",
+            "uuid"
+        ]
+    },
+    {
         "name": "reflar/polls",
         "version": "1.2.6",
         "version_normalized": "1.2.6.0",
@@ -4144,7 +4298,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.7"
         },
-        "time": "2018-06-07 04:47:37",
+        "time": "2018-06-07T04:47:37+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -4187,6 +4341,72 @@
         ]
     },
     {
+        "name": "reflar/reactions",
+        "version": "1.0.0-beta.4.1",
+        "version_normalized": "1.0.0.0-beta4.1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ReFlar/reactions.git",
+            "reference": "366075a97b87777eb8c33dc10a09b976a7480cd5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ReFlar/reactions/zipball/366075a97b87777eb8c33dc10a09b976a7480cd5",
+            "reference": "366075a97b87777eb8c33dc10a09b976a7480cd5",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta-7"
+        },
+        "time": "2018-05-19T23:53:25+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "ReFlar Reactions",
+                "icon": {
+                    "name": "smile-o",
+                    "backgroundColor": "#263238",
+                    "color": "#FFF"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/6542-reactions-by-reflar"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Reflar\\Reactions\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "David Sevilla Martín",
+                "email": "dsevilla192@icloud.com",
+                "homepage": "https://redevs.org",
+                "role": "Developer"
+            },
+            {
+                "name": "Charlie K",
+                "email": "issyrocks12@reflar.email",
+                "homepage": "https://redevs.org",
+                "role": "Developer"
+            }
+        ],
+        "description": "Reactions for Flarum",
+        "keywords": [
+            "Settings",
+            "flarum",
+            "misc",
+            "reactions",
+            "reflar"
+        ]
+    },
+    {
         "name": "reflar/uncache",
         "version": "0.1.0-beta.2",
         "version_normalized": "0.1.0.0-beta2",
@@ -4205,7 +4425,7 @@
             "flarum/core": "^0.1.0-beta-7.1",
             "guzzlehttp/guzzle": "^6.2.2"
         },
-        "time": "2018-05-23 21:38:50",
+        "time": "2018-05-23T21:38:50+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -4282,7 +4502,7 @@
             "ext-xsl": "Enables the XSLT renderer",
             "ext-zlib": "Enables gzip compression when scraping content via the MediaEmbed plugin"
         },
-        "time": "2016-12-11 00:03:31",
+        "time": "2016-12-11T00:03:31+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -4336,7 +4556,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.4"
         },
-        "time": "2018-02-02 09:27:13",
+        "time": "2018-02-02T09:27:13+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -4379,7 +4599,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.6"
         },
-        "time": "2016-10-23 14:52:44",
+        "time": "2016-10-23T14:52:44+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -4435,7 +4655,7 @@
             "mockery/mockery": "~0.9.1",
             "symfony/phpunit-bridge": "~3.2"
         },
-        "time": "2018-01-23 07:37:21",
+        "time": "2018-01-23T07:37:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4471,17 +4691,17 @@
     },
     {
         "name": "symfony/console",
-        "version": "v2.8.38",
-        "version_normalized": "2.8.38.0",
+        "version": "v2.8.41",
+        "version_normalized": "2.8.41.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/console.git",
-            "reference": "7f78892d900c72a40acd1fe793c856ef0c110f26"
+            "reference": "e8e59b74ad1274714dad2748349b55e3e6e630c7"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/7f78892d900c72a40acd1fe793c856ef0c110f26",
-            "reference": "7f78892d900c72a40acd1fe793c856ef0c110f26",
+            "url": "https://api.github.com/repos/symfony/console/zipball/e8e59b74ad1274714dad2748349b55e3e6e630c7",
+            "reference": "e8e59b74ad1274714dad2748349b55e3e6e630c7",
             "shasum": ""
         },
         "require": {
@@ -4495,11 +4715,11 @@
             "symfony/process": "~2.1|~3.0.0"
         },
         "suggest": {
-            "psr/log": "For using the console logger",
+            "psr/log-implementation": "For using the console logger",
             "symfony/event-dispatcher": "",
             "symfony/process": ""
         },
-        "time": "2018-04-03 05:20:27",
+        "time": "2018-05-15T21:17:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4534,17 +4754,17 @@
     },
     {
         "name": "symfony/debug",
-        "version": "v2.7.46",
-        "version_normalized": "2.7.46.0",
+        "version": "v2.7.48",
+        "version_normalized": "2.7.48.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/debug.git",
-            "reference": "e191af723b7005f2acc2889768143adfd4992e94"
+            "reference": "fc4afe37fdb5e1b26089a7039f3c6322ff5e2116"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/debug/zipball/e191af723b7005f2acc2889768143adfd4992e94",
-            "reference": "e191af723b7005f2acc2889768143adfd4992e94",
+            "url": "https://api.github.com/repos/symfony/debug/zipball/fc4afe37fdb5e1b26089a7039f3c6322ff5e2116",
+            "reference": "fc4afe37fdb5e1b26089a7039f3c6322ff5e2116",
             "shasum": ""
         },
         "require": {
@@ -4558,7 +4778,7 @@
             "symfony/class-loader": "~2.2",
             "symfony/http-kernel": "~2.3.24|~2.5.9|^2.6.2"
         },
-        "time": "2018-04-03 05:05:54",
+        "time": "2018-05-11T17:00:11+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4593,23 +4813,24 @@
     },
     {
         "name": "symfony/filesystem",
-        "version": "v3.4.8",
-        "version_normalized": "3.4.8.0",
+        "version": "v3.4.11",
+        "version_normalized": "3.4.11.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/filesystem.git",
-            "reference": "253a4490b528597aa14d2bf5aeded6f5e5e4a541"
+            "reference": "8e03ca3fa52a0f56b87506f38cf7bd3f9442b3a0"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/filesystem/zipball/253a4490b528597aa14d2bf5aeded6f5e5e4a541",
-            "reference": "253a4490b528597aa14d2bf5aeded6f5e5e4a541",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/8e03ca3fa52a0f56b87506f38cf7bd3f9442b3a0",
+            "reference": "8e03ca3fa52a0f56b87506f38cf7bd3f9442b3a0",
             "shasum": ""
         },
         "require": {
-            "php": "^5.5.9|>=7.0.8"
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-ctype": "~1.8"
         },
-        "time": "2018-02-22 10:48:49",
+        "time": "2018-05-16T08:49:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4644,23 +4865,23 @@
     },
     {
         "name": "symfony/finder",
-        "version": "v2.7.46",
-        "version_normalized": "2.7.46.0",
+        "version": "v2.7.48",
+        "version_normalized": "2.7.48.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/finder.git",
-            "reference": "79fe1ed67eda99c2d4282d8c52f6d9220bf00740"
+            "reference": "34226a3aa279f1e356ad56181b91acfdc9a2525c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/79fe1ed67eda99c2d4282d8c52f6d9220bf00740",
-            "reference": "79fe1ed67eda99c2d4282d8c52f6d9220bf00740",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/34226a3aa279f1e356ad56181b91acfdc9a2525c",
+            "reference": "34226a3aa279f1e356ad56181b91acfdc9a2525c",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.9"
         },
-        "time": "2018-04-04 06:34:32",
+        "time": "2018-05-14T06:36:14+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4695,17 +4916,17 @@
     },
     {
         "name": "symfony/http-foundation",
-        "version": "v2.7.46",
-        "version_normalized": "2.7.46.0",
+        "version": "v2.7.48",
+        "version_normalized": "2.7.48.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/http-foundation.git",
-            "reference": "1d170f9114695ed0026f6d8ff46cdd4ca5e1d5c2"
+            "reference": "c47d54254ee334121d0b27c6b06591b8afbfb8bd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1d170f9114695ed0026f6d8ff46cdd4ca5e1d5c2",
-            "reference": "1d170f9114695ed0026f6d8ff46cdd4ca5e1d5c2",
+            "url": "https://api.github.com/repos/symfony/http-foundation/zipball/c47d54254ee334121d0b27c6b06591b8afbfb8bd",
+            "reference": "c47d54254ee334121d0b27c6b06591b8afbfb8bd",
             "shasum": ""
         },
         "require": {
@@ -4715,7 +4936,7 @@
         "require-dev": {
             "symfony/expression-language": "~2.4"
         },
-        "time": "2018-04-23 12:28:22",
+        "time": "2018-05-25T10:53:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4752,18 +4973,75 @@
         "homepage": "https://symfony.com"
     },
     {
-        "name": "symfony/polyfill-mbstring",
-        "version": "v1.7.0",
-        "version_normalized": "1.7.0.0",
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.8.0",
+        "version_normalized": "1.8.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/polyfill-mbstring.git",
-            "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
-            "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+            "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2018-04-30T19:57:29+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            },
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "3296adf6a6454a050679cde90f95350ad604b171"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/3296adf6a6454a050679cde90f95350ad604b171",
+            "reference": "3296adf6a6454a050679cde90f95350ad604b171",
             "shasum": ""
         },
         "require": {
@@ -4772,11 +5050,11 @@
         "suggest": {
             "ext-mbstring": "For best performance"
         },
-        "time": "2018-01-30 19:27:44",
+        "time": "2018-04-26T10:06:28+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.7-dev"
+                "dev-master": "1.8-dev"
             }
         },
         "installation-source": "dist",
@@ -4814,23 +5092,23 @@
     },
     {
         "name": "symfony/process",
-        "version": "v3.4.8",
-        "version_normalized": "3.4.8.0",
+        "version": "v3.4.11",
+        "version_normalized": "3.4.11.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/process.git",
-            "reference": "4b7d64e852886319e93ddfdecff0d744ab87658b"
+            "reference": "4cbf2db9abcb01486a21b7a059e03a62fae63187"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/process/zipball/4b7d64e852886319e93ddfdecff0d744ab87658b",
-            "reference": "4b7d64e852886319e93ddfdecff0d744ab87658b",
+            "url": "https://api.github.com/repos/symfony/process/zipball/4cbf2db9abcb01486a21b7a059e03a62fae63187",
+            "reference": "4cbf2db9abcb01486a21b7a059e03a62fae63187",
             "shasum": ""
         },
         "require": {
             "php": "^5.5.9|>=7.0.8"
         },
-        "time": "2018-04-03 05:22:50",
+        "time": "2018-05-16T08:49:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4865,17 +5143,17 @@
     },
     {
         "name": "symfony/translation",
-        "version": "v2.7.46",
-        "version_normalized": "2.7.46.0",
+        "version": "v2.7.48",
+        "version_normalized": "2.7.48.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/translation.git",
-            "reference": "bf521bfd1ba3f532810a1b3e2a81e8bfa15dce47"
+            "reference": "1959c78c5a32539ef221b3e18a961a96d949118f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation/zipball/bf521bfd1ba3f532810a1b3e2a81e8bfa15dce47",
-            "reference": "bf521bfd1ba3f532810a1b3e2a81e8bfa15dce47",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/1959c78c5a32539ef221b3e18a961a96d949118f",
+            "reference": "1959c78c5a32539ef221b3e18a961a96d949118f",
             "shasum": ""
         },
         "require": {
@@ -4891,11 +5169,11 @@
             "symfony/yaml": "~2.2"
         },
         "suggest": {
-            "psr/log": "To use logging capability in translator",
+            "psr/log-implementation": "To use logging capability in translator",
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2018-01-17 08:38:26",
+        "time": "2018-05-17T10:34:06+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4930,23 +5208,24 @@
     },
     {
         "name": "symfony/yaml",
-        "version": "v2.8.38",
-        "version_normalized": "2.8.38.0",
+        "version": "v2.8.41",
+        "version_normalized": "2.8.41.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/yaml.git",
-            "reference": "be720fcfae4614df204190d57795351059946a77"
+            "reference": "51356b7a2ff7c9fd06b2f1681cc463bb62b5c1ff"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/be720fcfae4614df204190d57795351059946a77",
-            "reference": "be720fcfae4614df204190d57795351059946a77",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/51356b7a2ff7c9fd06b2f1681cc463bb62b5c1ff",
+            "reference": "51356b7a2ff7c9fd06b2f1681cc463bb62b5c1ff",
             "shasum": ""
         },
         "require": {
-            "php": ">=5.3.9"
+            "php": ">=5.3.9",
+            "symfony/polyfill-ctype": "~1.8"
         },
-        "time": "2018-01-03 07:36:31",
+        "time": "2018-05-01T22:52:40+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4998,7 +5277,7 @@
             "flarum/core": "^0.1.0-beta.5",
             "samdark/sitemap": "^2.0.4"
         },
-        "time": "2016-11-17 19:09:48",
+        "time": "2016-11-17T19:09:48+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -5051,7 +5330,7 @@
             "ext-curl": "*",
             "php": ">=5.2.0"
         },
-        "time": "2016-07-19 13:50:18",
+        "time": "2016-07-19T13:50:18+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -5094,7 +5373,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.8 || ^5.0"
         },
-        "time": "2016-03-31 09:25:28",
+        "time": "2016-03-31T09:25:28+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5143,7 +5422,7 @@
         "require": {
             "flarum/core": "^0.1.0-beta.5"
         },
-        "time": "2016-04-07 04:07:17",
+        "time": "2016-04-07T04:07:17+00:00",
         "type": "flarum-extension",
         "extra": {
             "flarum-extension": {
@@ -5175,18 +5454,97 @@
         ]
     },
     {
-        "name": "zendframework/zend-diactoros",
-        "version": "1.7.1",
-        "version_normalized": "1.7.1.0",
+        "name": "xtraball/flarum-custom",
+        "version": "9999999-dev",
+        "version_normalized": "9999999-dev",
+        "dist": {
+            "type": "path",
+            "url": "workbench/flarum-custom",
+            "reference": "de6e8122fd10a5be0326493c5a9a057d083616f5",
+            "shasum": null
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Awesome Custom"
+            }
+        },
+        "installation-source": "dist",
+        "description": "Complete customization of Flarum for our needs!"
+    },
+    {
+        "name": "zaptech/cookie-consent",
+        "version": "0.1.0-beta3",
+        "version_normalized": "0.1.0.0-beta3",
         "source": {
             "type": "git",
-            "url": "https://github.com/zendframework/zend-diactoros.git",
-            "reference": "bf26aff803a11c5cc8eb7c4878a702c403ec67f1"
+            "url": "https://github.com/PartialDev/zaptech-cookie-consent.git",
+            "reference": "f1491f5c31ebe05f21289ead29607f7dce8b7f23"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/bf26aff803a11c5cc8eb7c4878a702c403ec67f1",
-            "reference": "bf26aff803a11c5cc8eb7c4878a702c403ec67f1",
+            "url": "https://api.github.com/repos/PartialDev/zaptech-cookie-consent/zipball/f1491f5c31ebe05f21289ead29607f7dce8b7f23",
+            "reference": "f1491f5c31ebe05f21289ead29607f7dce8b7f23",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2018-04-22T12:46:52+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Cookie Consent",
+                "icon": {
+                    "name": "exclamation-circle",
+                    "backgroundColor": "#ff5733",
+                    "color": "#f3bc00"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ZapTech\\CConsent\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joel Bond",
+                "email": "joel.bond@partialdev.com",
+                "homepage": "https://partialdev.com/"
+            }
+        ],
+        "description": "Customizable cookie consent notice for your Flarum installation",
+        "keywords": [
+            "consent",
+            "cookie",
+            "customizable",
+            "extension",
+            "flarum",
+            "partialdev"
+        ]
+    },
+    {
+        "name": "zendframework/zend-diactoros",
+        "version": "1.7.2",
+        "version_normalized": "1.7.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/zend-diactoros.git",
+            "reference": "741e7a571836f038de731105f4742ca8a164e43a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/741e7a571836f038de731105f4742ca8a164e43a",
+            "reference": "741e7a571836f038de731105f4742ca8a164e43a",
             "shasum": ""
         },
         "require": {
@@ -5202,12 +5560,13 @@
             "phpunit/phpunit": "^5.7.16 || ^6.0.8",
             "zendframework/zend-coding-standard": "~1.0"
         },
-        "time": "2018-02-26 15:44:50",
+        "time": "2018-05-29T16:53:08+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
                 "dev-master": "1.7.x-dev",
-                "dev-develop": "1.8.x-dev"
+                "dev-develop": "1.8.x-dev",
+                "dev-release-2.0": "2.0.x-dev"
             }
         },
         "installation-source": "dist",
@@ -5250,7 +5609,7 @@
             "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
             "zendframework/zend-coding-standard": "~1.0.0"
         },
-        "time": "2018-04-25 15:48:53",
+        "time": "2018-04-25T15:48:53+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5304,7 +5663,7 @@
         "suggest": {
             "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Stratigility; e.g., zendframework/zend-diactoros"
         },
-        "time": "2017-01-23 22:59:03",
+        "time": "2017-01-23T22:59:03+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -5328,226 +5687,6 @@
             "http",
             "middleware",
             "psr-7"
-        ]
-    },
-    {
-        "name": "ramsey/uuid",
-        "version": "3.7.3",
-        "version_normalized": "3.7.3.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ramsey/uuid.git",
-            "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/ramsey/uuid/zipball/44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
-            "reference": "44abcdad877d9a46685a3a4d221e3b2c4b87cb76",
-            "shasum": ""
-        },
-        "require": {
-            "paragonie/random_compat": "^1.0|^2.0",
-            "php": "^5.4 || ^7.0"
-        },
-        "replace": {
-            "rhumsaa/uuid": "self.version"
-        },
-        "require-dev": {
-            "codeception/aspect-mock": "^1.0 | ~2.0.0",
-            "doctrine/annotations": "~1.2.0",
-            "goaop/framework": "1.0.0-alpha.2 | ^1.0 | ^2.1",
-            "ircmaxell/random-lib": "^1.1",
-            "jakub-onderka/php-parallel-lint": "^0.9.0",
-            "mockery/mockery": "^0.9.9",
-            "moontoast/math": "^1.1",
-            "php-mock/php-mock-phpunit": "^0.3|^1.1",
-            "phpunit/phpunit": "^4.7|^5.0",
-            "squizlabs/php_codesniffer": "^2.3"
-        },
-        "suggest": {
-            "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
-            "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
-            "ircmaxell/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
-            "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
-            "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
-            "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
-        },
-        "time": "2018-01-20 00:28:24",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Ramsey\\Uuid\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Marijn Huizendveld",
-                "email": "marijn.huizendveld@gmail.com"
-            },
-            {
-                "name": "Thibaud Fabre",
-                "email": "thibaud@aztech.io"
-            },
-            {
-                "name": "Ben Ramsey",
-                "email": "ben@benramsey.com",
-                "homepage": "https://benramsey.com"
-            }
-        ],
-        "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
-        "homepage": "https://github.com/ramsey/uuid",
-        "keywords": [
-            "guid",
-            "identifier",
-            "uuid"
-        ]
-    },
-    {
-        "name": "flagrow/upload",
-        "version": "0.6.0",
-        "version_normalized": "0.6.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/flagrow/upload.git",
-            "reference": "66710f376d3d73e61bbd93559498289b834df35f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/flagrow/upload/zipball/66710f376d3d73e61bbd93559498289b834df35f",
-            "reference": "66710f376d3d73e61bbd93559498289b834df35f",
-            "shasum": ""
-        },
-        "require": {
-            "flarum/core": "^0.1.0-beta.6",
-            "ramsey/uuid": "^3.5.2"
-        },
-        "require-dev": {
-            "flagrow/steamroller": "dev-master",
-            "league/flysystem": "^1.0.32",
-            "league/flysystem-aws-s3-v3": "^1.0",
-            "techyah/flysystem-ovh": "^1.0"
-        },
-        "suggest": {
-            "league/flysystem-aws-s3-v3": "Uploads to AWS S3 using API version 3.",
-            "techyah/flysystem-ovh": "Uploads to OVH Swift vfs using API."
-        },
-        "time": "2017-11-14 08:28:40",
-        "type": "flarum-extension",
-        "extra": {
-            "flarum-extension": {
-                "title": "Flagrow Upload",
-                "icon": {
-                    "name": "files-o",
-                    "backgroundColor": "#f4f4f4",
-                    "color": "#5f4bb6"
-                }
-            },
-            "flagrow": {
-                "discuss": "https://discuss.flarum.org/d/4154-flagrow-upload-the-intelligent-file-attachment-extension"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Flagrow\\Upload\\": "src/"
-            },
-            "files": [
-                "src/Helpers/functions.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Daniël Klabbers",
-                "email": "daniel@klabbers.email",
-                "homepage": "http://luceos.com"
-            }
-        ],
-        "description": "The file upload extension for the Flarum forum with insane intelligence.",
-        "keywords": [
-            "file",
-            "flagrow",
-            "flarum",
-            "upload"
-        ]
-    },
-    {
-        "name": "reflar/reactions",
-        "version": "1.0.0-beta.4.1",
-        "version_normalized": "1.0.0.0-beta4.1",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ReFlar/reactions.git",
-            "reference": "366075a97b87777eb8c33dc10a09b976a7480cd5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/ReFlar/reactions/zipball/366075a97b87777eb8c33dc10a09b976a7480cd5",
-            "reference": "366075a97b87777eb8c33dc10a09b976a7480cd5",
-            "shasum": ""
-        },
-        "require": {
-            "flarum/core": "^0.1.0-beta-7"
-        },
-        "time": "2018-05-19 23:53:25",
-        "type": "flarum-extension",
-        "extra": {
-            "flarum-extension": {
-                "title": "ReFlar Reactions",
-                "icon": {
-                    "name": "smile-o",
-                    "backgroundColor": "#263238",
-                    "color": "#FFF"
-                }
-            },
-            "flagrow": {
-                "discuss": "https://discuss.flarum.org/d/6542-reactions-by-reflar"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Reflar\\Reactions\\": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "David Sevilla Martín",
-                "email": "dsevilla192@icloud.com",
-                "homepage": "https://redevs.org",
-                "role": "Developer"
-            },
-            {
-                "name": "Charlie K",
-                "email": "issyrocks12@reflar.email",
-                "homepage": "https://redevs.org",
-                "role": "Developer"
-            }
-        ],
-        "description": "Reactions for Flarum",
-        "keywords": [
-            "Settings",
-            "flarum",
-            "misc",
-            "reactions",
-            "reflar"
         ]
     }
 ]

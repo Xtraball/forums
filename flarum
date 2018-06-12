@@ -9,6 +9,7 @@
  * file that was distributed with this source code.
  */
 
+define('FLARUM_CLI', true);
 define('FLARUM_START', microtime(true));
 
 require 'vendor/autoload.php';

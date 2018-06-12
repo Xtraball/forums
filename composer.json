@@ -51,8 +51,16 @@
         "flagrow/terms": "^0.2.2",
         "noriods/auto-more": "^0.2.0",
         "flagrow/upload": "^0.6.0",
-        "reflar/reactions": "1.0.0-beta.4.1"
+        "reflar/reactions": "1.0.0-beta.4.1",
+        "xtraball/flarum-custom": "*@dev",
+        "zaptech/cookie-consent": "^0.1.0@beta"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "workbench/*/"
+        }
+    ],
     "require-dev": {
         "franzl/studio": "^0.11.0"
     },

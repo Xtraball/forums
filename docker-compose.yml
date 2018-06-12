@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  apache2:
+    restart: always
+    image: romeoz/docker-apache-php:7.0
+    ports:
+      - 30606:80
+    volumes:
+      - ./:/var/www/app
+    networks:
+      - siberian-bridge
+
+networks:
+  siberian-bridge:
+    driver: bridge
