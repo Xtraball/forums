@@ -48,7 +48,8 @@
         "reflar/polls": "^1.2",
         "flagrow/linguist": "^0.2.0",
         "reflar/uncache": "^0.1.0@beta",
-        "flagrow/terms": "^0.2.2"
+        "flagrow/terms": "^0.2.2",
+        "noriods/auto-more": "^0.2.0"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"

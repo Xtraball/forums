@@ -1,2 +1,4 @@
 .idea
 .dev
+.htpasswd
+config.php

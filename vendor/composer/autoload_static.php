@@ -69,6 +69,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
         ),
+        'N' => 
+        array (
+            'NorioDS\\AutoMore\\' => 17,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
@@ -245,6 +249,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'NorioDS\\AutoMore\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/noriods/auto-more/src',
         ),
         'Monolog\\' => 
         array (
