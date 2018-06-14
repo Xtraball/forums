@@ -62,6 +62,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Studio\\' => 7,
             'Stringy\\' => 8,
             'Sijad\\Pages\\' => 12,
+            'Sijad\\Links\\' => 12,
         ),
         'R' => 
         array (
@@ -116,6 +117,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'GaNuongLaChanh\\Search\\' => 22,
         ),
         'F' => 
         array (
@@ -145,6 +147,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         ),
         'D' => 
         array (
+            'DogSports\\PipeTables\\' => 21,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
@@ -248,6 +251,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'Sijad\\Pages\\' => 
         array (
             0 => __DIR__ . '/..' . '/sijad/flarum-ext-pages/src',
+        ),
+        'Sijad\\Links\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sijad/flarum-ext-links/src',
         ),
         'Reflar\\UnCache\\' => 
         array (
@@ -383,6 +390,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'GaNuongLaChanh\\Search\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ganuonglachanh/flarum-ext-search/src',
+        ),
         'Franzl\\Middleware\\Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/franzl/whoops-middleware/src',
@@ -474,6 +485,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'DogSports\\PipeTables\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dogsports/flarum-ext-pipetables/src',
         ),
         'Doctrine\\Common\\Cache\\' => 
         array (

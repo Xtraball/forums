@@ -685,6 +685,56 @@
         ]
     },
     {
+        "name": "dogsports/flarum-ext-pipetables",
+        "version": "1.0.8",
+        "version_normalized": "1.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DogSports/flarum-ext-pipetables.git",
+            "reference": "53bf7eb22525e9869a2bd3791433491001e86991"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DogSports/flarum-ext-pipetables/zipball/53bf7eb22525e9869a2bd3791433491001e86991",
+            "reference": "53bf7eb22525e9869a2bd3791433491001e86991",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": ">=0.1.0-beta.7",
+            "s9e/text-formatter": "*"
+        },
+        "time": "2018-03-05T19:45:15+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Markdown Tables",
+                "icon": {
+                    "name": "table",
+                    "backgroundColor": "#4687a7",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DogSports\\PipeTables\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Active markdown tables.",
+        "keywords": [
+            "dogsports",
+            "flarum",
+            "markdown",
+            "table",
+            "typography"
+        ]
+    },
+    {
         "name": "filp/whoops",
         "version": "2.2.0",
         "version_normalized": "2.2.0.0",
@@ -2099,6 +2149,58 @@
             }
         },
         "notification-url": "https://packagist.org/downloads/"
+    },
+    {
+        "name": "ganuonglachanh/flarum-ext-search",
+        "version": "0.4",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ganuonglachanh/flarum-ganuonglachanh-search.git",
+            "reference": "5015730fd5dc2315fda3427c6131d49e75fb3509"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ganuonglachanh/flarum-ganuonglachanh-search/zipball/5015730fd5dc2315fda3427c6131d49e75fb3509",
+            "reference": "5015730fd5dc2315fda3427c6131d49e75fb3509",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.6"
+        },
+        "time": "2018-04-09T13:21:23+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Search",
+                "icon": {
+                    "name": "search",
+                    "backgroundColor": "#74000E",
+                    "color": "#BE1E31"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GaNuongLaChanh\\Search\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "GaNuongLaChanh",
+                "email": "ganuonglachanh@outlook.com"
+            }
+        ],
+        "description": "Allows to search by discusstion title",
+        "keywords": [
+            "flarum",
+            "search"
+        ]
     },
     {
         "name": "guzzlehttp/guzzle",
@@ -4579,6 +4681,60 @@
         "homepage": "https://github.com/samdark/sitemap",
         "keywords": [
             "Sitemap"
+        ]
+    },
+    {
+        "name": "sijad/flarum-ext-links",
+        "version": "0.1.0-beta.6",
+        "version_normalized": "0.1.0.0-beta6",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sijad/flarum-ext-links.git",
+            "reference": "29c451034033894803568f66432ce7ebee938ae9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sijad/flarum-ext-links/zipball/29c451034033894803568f66432ce7ebee938ae9",
+            "reference": "29c451034033894803568f66432ce7ebee938ae9",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.5"
+        },
+        "time": "2016-05-03T20:05:44+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Links",
+                "icon": {
+                    "name": "bars",
+                    "backgroundColor": "#83AF9B",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sijad\\Links\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sajjad Hashemian",
+                "email": "wolaws@gmail.com"
+            }
+        ],
+        "description": "Manage flarum primary navbar menu links.",
+        "keywords": [
+            "item",
+            "link",
+            "menu",
+            "nav"
         ]
     },
     {
