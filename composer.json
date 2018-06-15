@@ -56,7 +56,8 @@
         "zaptech/cookie-consent": "^0.1.0@beta",
         "sijad/flarum-ext-links": "^0.1.0@beta",
         "dogsports/flarum-ext-pipetables": "^1.0",
-        "ganuonglachanh/flarum-ext-search": "^0.4.0"
+        "ganuonglachanh/flarum-ext-search": "^0.4.0",
+        "michaelbelgium/flarum-discussion-views": "v0.1.0-beta.7-3.2"
     },
     "repositories": [
         {

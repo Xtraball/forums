@@ -3810,6 +3810,54 @@
         ]
     },
     {
+        "name": "michaelbelgium/flarum-discussion-views",
+        "version": "v0.1.0-beta.7-3.2",
+        "version_normalized": "0.1.0.0-beta7-3.2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MichaelBelgium/flarum-discussion-views.git",
+            "reference": "8f8a771dbd3bee75354c10697c84e3912724a215"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MichaelBelgium/flarum-discussion-views/zipball/8f8a771dbd3bee75354c10697c84e3912724a215",
+            "reference": "8f8a771dbd3bee75354c10697c84e3912724a215",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2018-05-24T18:58:28+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Discussion views",
+                "icon": {
+                    "name": "eye",
+                    "backgroundColor": "#88CC23",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "michaelbelgium\\views\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael V.",
+                "email": "michael@michaelbelgium.me"
+            }
+        ],
+        "description": "Add views to flarum discussions"
+    },
+    {
         "name": "monolog/monolog",
         "version": "1.23.0",
         "version_normalized": "1.23.0.0",

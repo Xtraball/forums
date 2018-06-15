@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'samdark\\sitemap\\' => array($vendorDir . '/samdark/sitemap'),
     's9e\\TextFormatter\\' => array($vendorDir . '/s9e/text-formatter/src'),
+    'michaelbelgium\\views\\' => array($vendorDir . '/michaelbelgium/flarum-discussion-views/src'),
     'Zend\\Stratigility\\' => array($vendorDir . '/zendframework/zend-stratigility/src'),
     'Zend\\Escaper\\' => array($vendorDir . '/zendframework/zend-escaper/src'),
     'Zend\\Diactoros\\' => array($vendorDir . '/zendframework/zend-diactoros/src'),

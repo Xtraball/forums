@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "24a6fbe9dff7155aa47c6b8c373a02e5",
+    "content-hash": "a0eb0d5f2808095c2088c9f15f129d95",
     "packages": [
         {
             "name": "avatar4eg/flarum-ext-users-list",
@@ -3629,6 +3629,52 @@
             "time": "2018-02-02T11:30:10+00:00"
         },
         {
+            "name": "michaelbelgium/flarum-discussion-views",
+            "version": "v0.1.0-beta.7-3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MichaelBelgium/flarum-discussion-views.git",
+                "reference": "8f8a771dbd3bee75354c10697c84e3912724a215"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MichaelBelgium/flarum-discussion-views/zipball/8f8a771dbd3bee75354c10697c84e3912724a215",
+                "reference": "8f8a771dbd3bee75354c10697c84e3912724a215",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0-beta.7"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Discussion views",
+                    "icon": {
+                        "name": "eye",
+                        "backgroundColor": "#88CC23",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "michaelbelgium\\views\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael V.",
+                    "email": "michael@michaelbelgium.me"
+                }
+            ],
+            "description": "Add views to flarum discussions",
+            "time": "2018-05-24T18:58:28+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.23.0",
             "source": {
@@ -5657,7 +5703,8 @@
         "reflar/reactions": 10,
         "xtraball/flarum-custom": 20,
         "zaptech/cookie-consent": 10,
-        "sijad/flarum-ext-links": 10
+        "sijad/flarum-ext-links": 10,
+        "michaelbelgium/flarum-discussion-views": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,

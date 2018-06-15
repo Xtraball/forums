@@ -27,6 +27,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'samdark\\sitemap\\' => 16,
             's9e\\TextFormatter\\' => 18,
         ),
+        'm' => 
+        array (
+            'michaelbelgium\\views\\' => 21,
+        ),
         'Z' => 
         array (
             'Zend\\Stratigility\\' => 18,
@@ -167,6 +171,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         's9e\\TextFormatter\\' => 
         array (
             0 => __DIR__ . '/..' . '/s9e/text-formatter/src',
+        ),
+        'michaelbelgium\\views\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/michaelbelgium/flarum-discussion-views/src',
         ),
         'Zend\\Stratigility\\' => 
         array (
