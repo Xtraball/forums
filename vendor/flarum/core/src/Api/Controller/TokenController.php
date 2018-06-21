@@ -66,8 +66,12 @@ class TokenController implements ControllerInterface
             throw new PermissionDeniedException;
         }
 
-        $token = AccessToken::generate($user->id, $lifetime);
-        $token->save();
+        // First search for an existing token
+        $token = AccessToken::where('user_id', $user->id)->first();
+        if (!$token) {
+            $token = AccessToken::generate($user->id, $lifetime);
+            $token->save();
+        }
 
         return new JsonResponse([
             'token' => $token->id,
