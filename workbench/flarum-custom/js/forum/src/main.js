@@ -1,10 +1,12 @@
 import { extend } from 'flarum/extend';
 import HeaderSecondary from 'flarum/components/HeaderSecondary';
+import SessionDropdown from 'flarum/components/SessionDropdown';
 import Button from 'flarum/components/Button';
 import SettingsPage from 'flarum/components/SettingsPage';
 
 let config = {
-  loginRoute: 'https://www.siberiancms.com/wp-login.php?redirect_to=open-source'
+  loginRoute: 'https://www.siberiancms.com/wp-login.php?redirect_to=open-source',
+  logoutRoute: 'https://www.siberiancms.com/logout-2'
 };
 
 app.initializers.add('xtraball-flarum-custom', function() {
@@ -21,6 +23,21 @@ app.initializers.add('xtraball-flarum-custom', function() {
         }
       }), 0);
     }
+  });
+
+  // We replace the logout button with a redirect to WordPress Auth, previously hooked with our module!
+  extend(SessionDropdown.prototype, 'items', function(items) {
+    items.remove('logOut');
+    items.add('logOut',
+      Button.component({
+        icon: 'sign-out',
+        children: app.translator.trans('core.forum.header.log_out_button'),
+        onclick: function onclick() {
+          window.open(config.logoutRoute);
+        }
+      }),
+      -100
+    );
   });
 
   // Removes all section "account" including change password/ change e-mail!
