@@ -147,6 +147,53 @@
         ]
     },
     {
+        "name": "datitisev/flarum-ext-dashboard",
+        "version": "v0.1.0-beta.7",
+        "version_normalized": "0.1.0.0-beta7",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/datitisev/flarum-ext-admindashboard.git",
+            "reference": "20c00814b26d1a96d953cf5cb198c6d204400cfe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/datitisev/flarum-ext-admindashboard/zipball/20c00814b26d1a96d953cf5cb198c6d204400cfe",
+            "reference": "20c00814b26d1a96d953cf5cb198c6d204400cfe",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta-7"
+        },
+        "time": "2018-04-15T23:45:14+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Dashboard",
+                "icon": {
+                    "name": "tachometer",
+                    "backgroundColor": "#3F51B5",
+                    "color": "#FFEB3B"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Datitisev\\Dashboard\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "David Sevilla Martín",
+                "email": "dsevilla192@icloud.com",
+                "homepage": "https://github.com/datitisev",
+                "role": "Developer"
+            }
+        ],
+        "description": "A dashboard for the admin interface in Flarum"
+    },
+    {
         "name": "dflydev/fig-cookies",
         "version": "v1.0.2",
         "version_normalized": "1.0.2.0",
@@ -735,6 +782,56 @@
         ]
     },
     {
+        "name": "dogsports/flarum-ext-web-push-notification",
+        "version": "v0.1.5",
+        "version_normalized": "0.1.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DogSports/flarum-ext-web-push-notification.git",
+            "reference": "69562cea879b72c1062fb6e37f23548d473eccb9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DogSports/flarum-ext-web-push-notification/zipball/69562cea879b72c1062fb6e37f23548d473eccb9",
+            "reference": "69562cea879b72c1062fb6e37f23548d473eccb9",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0"
+        },
+        "time": "2018-03-06T21:43:06+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Web Push Notification",
+                "icon": {
+                    "name": "bell",
+                    "backgroundColor": "#469c9e",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DogSports\\WebPush\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Adds Web Push notification feature to flarum with OneSignal service",
+        "keywords": [
+            "dogsports",
+            "flarum",
+            "notification",
+            "onesignal",
+            "push",
+            "web"
+        ]
+    },
+    {
         "name": "filp/whoops",
         "version": "2.2.0",
         "version_normalized": "2.2.0.0",
@@ -798,6 +895,67 @@
         ]
     },
     {
+        "name": "flagrow/byobu",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flagrow/byobu.git",
+            "reference": "20ee75b5518c39be0414fc92de3f0d1ef5cb0421"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flagrow/byobu/zipball/20ee75b5518c39be0414fc92de3f0d1ef5cb0421",
+            "reference": "20ee75b5518c39be0414fc92de3f0d1ef5cb0421",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7",
+            "flarum/flarum-ext-markdown": "^0.1.0-beta.5",
+            "flarum/flarum-ext-pusher": "^0.1.0-beta.5"
+        },
+        "time": "2018-03-12T22:12:09+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Flagrow Byōbu",
+                "icon": {
+                    "name": "map-o",
+                    "backgroundColor": "#f4f4f4",
+                    "color": "#5f4bb6"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/4762-flagrow-by-bu-well-integrated-advanced-private-discussions"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Flagrow\\Byobu\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniël Klabbers",
+                "email": "daniel@klabbers.email",
+                "homepage": "http://luceos.com"
+            }
+        ],
+        "description": "Well integrated, advanced private discussions.",
+        "keywords": [
+            "flagrow",
+            "flarum",
+            "messaging",
+            "pm",
+            "private discussions"
+        ]
+    },
+    {
         "name": "flagrow/linguist",
         "version": "0.2.0",
         "version_normalized": "0.2.0.0",
@@ -854,6 +1012,65 @@
             "flarum",
             "locale",
             "translation"
+        ]
+    },
+    {
+        "name": "flagrow/mason",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flagrow/mason.git",
+            "reference": "ee62c814f8e50d7d4e2f9ce0b22217fabff2d0de"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flagrow/mason/zipball/ee62c814f8e50d7d4e2f9ce0b22217fabff2d0de",
+            "reference": "ee62c814f8e50d7d4e2f9ce0b22217fabff2d0de",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.7"
+        },
+        "time": "2017-10-24T14:24:33+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "flarum-extension": {
+                "title": "Flagrow Mason",
+                "icon": {
+                    "name": "check-square",
+                    "backgroundColor": "#f4f4f4",
+                    "color": "#5f4bb6"
+                }
+            },
+            "flagrow": {
+                "discuss": "https://discuss.flarum.org/d/7028-flagrow-mason-the-discussion-custom-fields-builder"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Flagrow\\Mason\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "mit"
+        ],
+        "authors": [
+            {
+                "name": "Clark Winkelmann",
+                "email": "clark.winkelmann@gmail.com",
+                "homepage": "https://clarkwinkelmann.com/"
+            }
+        ],
+        "description": "Add custom fields to discussions",
+        "keywords": [
+            "custom-fields",
+            "discussion",
+            "extension",
+            "flagrow",
+            "flarum"
         ]
     },
     {
@@ -5655,6 +5872,61 @@
         "description": "SMTP Config UI.",
         "keywords": [
             "smtp"
+        ]
+    },
+    {
+        "name": "wiwatsrt/flarum-ext-best-answer",
+        "version": "v0.1.0-beta.11",
+        "version_normalized": "0.1.0.0-beta11",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wiwatsrt/flarum-ext-best-answer.git",
+            "reference": "a7541dec47854717ce924e60ce8d8fe0a5676f82"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wiwatsrt/flarum-ext-best-answer/zipball/a7541dec47854717ce924e60ce8d8fe0a5676f82",
+            "reference": "a7541dec47854717ce924e60ce8d8fe0a5676f82",
+            "shasum": ""
+        },
+        "require": {
+            "flarum/core": "^0.1.0-beta.5"
+        },
+        "time": "2017-08-27T09:55:44+00:00",
+        "type": "flarum-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1.x-dev"
+            },
+            "flarum-extension": {
+                "title": "Best Answer",
+                "icon": {
+                    "name": "commenting-o",
+                    "backgroundColor": "#EE8208",
+                    "color": "#fff"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WiwatSrt\\BestAnswer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Wiwat Srisattha",
+                "email": "wiwat@srisattha.com"
+            }
+        ],
+        "description": "Best Answer for Flarum.",
+        "keywords": [
+            "best-answer",
+            "flarum"
         ]
     },
     {

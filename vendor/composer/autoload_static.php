@@ -40,6 +40,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         ),
         'W' => 
         array (
+            'WiwatSrt\\BestAnswer\\' => 20,
             'Whoops\\' => 7,
         ),
         'V' => 
@@ -146,16 +147,20 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
             'Flarum\\' => 7,
             'Flagrow\\Upload\\' => 15,
             'Flagrow\\Terms\\' => 14,
+            'Flagrow\\Mason\\' => 14,
             'Flagrow\\Linguist\\' => 17,
+            'Flagrow\\Byobu\\' => 14,
             'FastRoute\\' => 10,
         ),
         'D' => 
         array (
+            'DogSports\\WebPush\\' => 18,
             'DogSports\\PipeTables\\' => 21,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
             'Dflydev\\FigCookies\\' => 19,
+            'Datitisev\\Dashboard\\' => 20,
         ),
         'A' => 
         array (
@@ -191,6 +196,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'ZapTech\\CConsent\\' => 
         array (
             0 => __DIR__ . '/..' . '/zaptech/cookie-consent/src',
+        ),
+        'WiwatSrt\\BestAnswer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wiwatsrt/flarum-ext-best-answer/src',
         ),
         'Whoops\\' => 
         array (
@@ -486,13 +495,25 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         array (
             0 => __DIR__ . '/..' . '/flagrow/terms/src',
         ),
+        'Flagrow\\Mason\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/mason/src',
+        ),
         'Flagrow\\Linguist\\' => 
         array (
             0 => __DIR__ . '/..' . '/flagrow/linguist/src',
         ),
+        'Flagrow\\Byobu\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/flagrow/byobu/src',
+        ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'DogSports\\WebPush\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dogsports/flarum-ext-web-push-notification/src',
         ),
         'DogSports\\PipeTables\\' => 
         array (
@@ -513,6 +534,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'Dflydev\\FigCookies\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
+        ),
+        'Datitisev\\Dashboard\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/datitisev/flarum-ext-dashboard/src',
         ),
         'Avatar4eg\\UsersList\\' => 
         array (
