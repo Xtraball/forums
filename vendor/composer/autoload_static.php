@@ -33,6 +33,7 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         ),
         'Z' => 
         array (
+            'Zurtr\\OneSignal\\' => 16,
             'Zend\\Stratigility\\' => 18,
             'Zend\\Escaper\\' => 13,
             'Zend\\Diactoros\\' => 15,
@@ -154,7 +155,6 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         ),
         'D' => 
         array (
-            'DogSports\\WebPush\\' => 18,
             'DogSports\\PipeTables\\' => 21,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
@@ -180,6 +180,10 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'michaelbelgium\\views\\' => 
         array (
             0 => __DIR__ . '/..' . '/michaelbelgium/flarum-discussion-views/src',
+        ),
+        'Zurtr\\OneSignal\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zurtr/flarum-ext-onesignal/src',
         ),
         'Zend\\Stratigility\\' => 
         array (
@@ -510,10 +514,6 @@ class ComposerStaticInitd81707784bc9c79293d6f7b0ad238d09
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
-        ),
-        'DogSports\\WebPush\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dogsports/flarum-ext-web-push-notification/src',
         ),
         'DogSports\\PipeTables\\' => 
         array (

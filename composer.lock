@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "715bf0250b2fb4b032933c69f9ed7dd1",
+    "content-hash": "7b7e7454301acc8dd4e65228c376a1e0",
     "packages": [
         {
             "name": "avatar4eg/flarum-ext-users-list",
@@ -761,54 +761,6 @@
                 "typography"
             ],
             "time": "2018-03-05T19:45:15+00:00"
-        },
-        {
-            "name": "dogsports/flarum-ext-web-push-notification",
-            "version": "v0.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DogSports/flarum-ext-web-push-notification.git",
-                "reference": "69562cea879b72c1062fb6e37f23548d473eccb9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DogSports/flarum-ext-web-push-notification/zipball/69562cea879b72c1062fb6e37f23548d473eccb9",
-                "reference": "69562cea879b72c1062fb6e37f23548d473eccb9",
-                "shasum": ""
-            },
-            "require": {
-                "flarum/core": "^0.1.0"
-            },
-            "type": "flarum-extension",
-            "extra": {
-                "flarum-extension": {
-                    "title": "Web Push Notification",
-                    "icon": {
-                        "name": "bell",
-                        "backgroundColor": "#469c9e",
-                        "color": "#fff"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "DogSports\\WebPush\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Adds Web Push notification feature to flarum with OneSignal service",
-            "keywords": [
-                "dogsports",
-                "flarum",
-                "notification",
-                "onesignal",
-                "push",
-                "web"
-            ],
-            "time": "2018-03-06T21:43:06+00:00"
         },
         {
             "name": "filp/whoops",
@@ -5798,6 +5750,52 @@
                 "psr-7"
             ],
             "time": "2017-01-23T22:59:03+00:00"
+        },
+        {
+            "name": "zurtr/flarum-ext-onesignal",
+            "version": "0.0.1-BETA",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zurtr/flarum-ext-onesignal.git",
+                "reference": "e9de89265befefd69bfb7239edc4cf8ea6d7189d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zurtr/flarum-ext-onesignal/zipball/e9de89265befefd69bfb7239edc4cf8ea6d7189d",
+                "reference": "e9de89265befefd69bfb7239edc4cf8ea6d7189d",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^0.1.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "OneSignal",
+                    "icon": {
+                        "name": "bell",
+                        "backgroundColor": "#469c9e",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zurtr\\OneSignal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vivek Soni",
+                    "email": "contact@viveksoni.net"
+                }
+            ],
+            "description": "Adds Web Push notification feature to flarum",
+            "time": "2016-11-01T04:27:33+00:00"
         }
     ],
     "packages-dev": [
@@ -5968,7 +5966,8 @@
         "sijad/flarum-ext-links": 10,
         "michaelbelgium/flarum-discussion-views": 10,
         "wiwatsrt/flarum-ext-best-answer": 10,
-        "datitisev/flarum-ext-dashboard": 10
+        "datitisev/flarum-ext-dashboard": 10,
+        "zurtr/flarum-ext-onesignal": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
